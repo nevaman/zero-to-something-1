@@ -9,7 +9,8 @@ import {
   LogOut, 
   Menu, 
   X,
-  Home
+  Home,
+  ExternalLink
 } from 'lucide-react'
 
 const Layout = () => {
@@ -131,14 +132,13 @@ const Layout = () => {
             </button>
             
             <div className="flex items-center space-x-4">
-              <a
-                href="/original-website.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-sm text-gray-400 hover:text-white transition-colors"
+              <a 
+                  href="/" 
+                  target="_blank" 
+                  className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
               >
-                <Home className="w-4 h-4 mr-2" />
-                View Site
+                  <ExternalLink className="w-4 h-4" />
+                  View Site
               </a>
             </div>
           </div>
