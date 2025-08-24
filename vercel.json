@@ -11,12 +11,12 @@
   ],
   "routes": [
     {
-      "src": "/admin",
-      "dest": "/index.html"
-    },
-    {
       "src": "/",
       "dest": "/public-site.html"
+    },
+    {
+      "src": "/admin",
+      "dest": "/index.html"
     },
     {
       "src": "/public-site",
@@ -26,10 +26,5 @@
       "src": "/original",
       "dest": "/original-website.html"
     }
-  ],
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  ]
 }
