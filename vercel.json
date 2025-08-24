@@ -12,19 +12,15 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/original-website.html"
+      "dest": "/index.html"
     },
     {
       "src": "/admin",
       "dest": "/index.html"
     },
     {
-      "src": "/public-site",
-      "dest": "/public-site.html"
-    },
-    {
-      "src": "/original",
-      "dest": "/original-website.html"
+      "src": "/config.js",
+      "dest": "/config.js"
     }
   ]
 }
